@@ -20,21 +20,23 @@
   <main>
     <img src="./images/logo.svg" alt="Logo graphic" class="logo">
     <h1>We are launching <span>soon!</span></h1>
-    <p>Subscribe and get notified</p>
-    <form action="#">
+    <p class="subheading">Subscribe and get notified</p>
+    <form action="#" id="form">
       <input type="email" name="email" id="email" placeholder="Enter your email address">
-      <button type="submit">Notify Me</button>
+      <button type="submit" id="submit-btn">Notify Me</button>
     </form>
+    <p class="error-msg">Please provide a valid email address</p>
+    <p class="success-msg">Success! You will be notified when we launch!</p>
     <img src="./images/illustration-dashboard.png" alt="Dashboard illustration graphic" class="dash-gfx">
   </main>
   <footer>
     <div class="social-icons-container">
       <!-- Facebook -->
-      <i class="fa-brands fa-facebook-f"></i>
+      <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
       <!-- Twitter / X -->
-      <i class="fa-brands fa-x-twitter"></i>
+      <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
       <!-- Instagram -->
-      <i class="fa-brands fa-instagram"></i>
+      <a href="#"><i class="fa-brands fa-instagram"></i></a>
     </div>
     <p class="copyright">&copy; Copyright Ping. All rights reserved.</p>
   </footer>
@@ -42,6 +44,7 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.<br>
     Coded by <a href="https://www.frontendmentor.io/profile/thenihilistdev" target="_blank">Aaron Varga</a>.
   </p>
+  <script src="/js/script.js" defer></script>
 </body>
 
 </html>
