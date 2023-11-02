@@ -79,6 +79,10 @@ input {
     flex: 5;
 }
 
+input::placeholder {
+    color: hsl(223, 50%, 80%);
+}
+
 button {
     padding: .75rem 2.5rem;
     cursor: pointer;
