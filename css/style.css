@@ -140,10 +140,6 @@ footer {
     border: 1px solid hsl(223, 87%, 63%);
 }
 
-.social-icons-container i {
-    margin-top: .08rem;
-}
-
 .error-msg {
     color: hsl(354, 100%, 66%);
     align-self: flex-start;
